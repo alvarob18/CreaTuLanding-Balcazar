@@ -12,16 +12,16 @@ function Footer() {
 
 <div id="dFooterDesktop" className="grid-container">
     <div className="grid-item uno">
-        <Link to="pages/indumentaria.html"><img src={img1} alt="Indumentaria"/></Link>
+        <Link to="/Indumentaria"><img src={img1} alt="Indumentaria"/></Link>
     </div>
     <div className="grid-item dos">
-        <Link to="pages/zapatillas.html"><img src={img2} alt="Zapatillas"/></Link>
+        <Link to="/zapatillas"><img src={img2} alt="Zapatillas"/></Link>
     </div>
     <div className="grid-item tres">
-        <Link to="pages/contacto.html"><img src={img3} alt="Contacto"/></Link>
+        <Link to="/contacto"><img src={img3} alt="Contacto"/></Link>
     </div> 
     <div className="grid-item cuatro">
-        <Link to="pages/quienes-somos.html"><img src={img4} alt="Quienes Somos"/></Link>
+        <Link to="/quienes-somos"><img src={img4} alt="Quienes Somos"/></Link>
     </div>
 </div>
   
@@ -50,7 +50,7 @@ function Footer() {
             <div className="col-lg-2 col-md-6 footer-links">
                 <h4 className="h4Footer">Links</h4>
                 <ul>
-                    <li><i className="bx bx-chevron-right"></i> <Link to="#">Home</Link></li>
+                    <li><i className="bx bx-chevron-right"></i> <Link to="/">Home</Link></li>
                     <li><i className="bx bx-chevron-right"></i> <Link to="/Indumentaria">Indumentaria</Link></li>
                     <li><i className="bx bx-chevron-right"></i> <Link to="/zapatillas">Zapatillas</Link></li>
                     <li><i className="bx bx-chevron-right"></i> <Link to="/contacto">Contacto</Link></li>

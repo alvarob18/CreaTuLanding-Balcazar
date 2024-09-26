@@ -38,16 +38,16 @@ function NavBar() {
                         </ul>
                     </li>
                     <li className="nav-item">
-                        <a id="cart-icon" href="#" className="nav-link">
+                        <Link id="cart-icon" to="/" className="nav-link">
                             <i className="bx bx-cart"></i>
                             <span id="carrito-counter">0</span>
-                        </a>
+                        </Link>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                     <button id="vaciar-carrito" className="btn btn-danger">
                         <i className="bi bi-trash"></i> Vaciar Carrito
                     </button>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>
