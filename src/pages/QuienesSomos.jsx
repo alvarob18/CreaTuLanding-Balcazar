@@ -1,10 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import MainContainer from '../components/mainContainer';
+import Footer from '../components/footer';
+import Header from '../components/header';
 
 function QuienesSomos() {
   return (
-    <div>
-    </div>
+    <>
+      <Header />
+      <MainContainer text='' />
+      <Footer />
+    </>
   );
 }
 

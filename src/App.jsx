@@ -15,7 +15,7 @@ function App() {
         <Route path="/Indumentaria" element={<Indumentaria />} />
         <Route path="/QuienesSomos" element={<QuienesSomos />} />
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="/zapatillas" element={<Zapatillas />} />
+        <Route path="/Zapatillas" element={<Zapatillas />} />
       </Routes>
     </Router>
   );

@@ -11,7 +11,7 @@ function NavBar() {
     <div className="items-menu">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
-            <a className="navbar-brand" href="../index.html">NFS</a>
+            <Link className="navbar-brand" to="/">NFS</Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@ function NavBar() {
                         </Link>
                         <ul className="dropdown-menu">
                           <li><Link className='dropdown-item' to="/contacto">Contacto</Link></li>
-                          <li><Link className='dropdown-item' to="/quienes-somos">Quienes somos</Link></li>
+                          <li><Link className='dropdown-item' to="/QuienesSomos">Quienes somos</Link></li>
                         </ul>
                     </li>
                     <li className="nav-item">

@@ -21,7 +21,7 @@ function Footer() {
         <Link to="/contacto"><img src={img3} alt="Contacto"/></Link>
     </div> 
     <div className="grid-item cuatro">
-        <Link to="/quienes-somos"><img src={img4} alt="Quienes Somos"/></Link>
+        <Link to="/QuienesSomos"><img src={img4} alt="Quienes Somos"/></Link>
     </div>
 </div>
   
@@ -54,7 +54,7 @@ function Footer() {
                     <li><i className="bx bx-chevron-right"></i> <Link to="/Indumentaria">Indumentaria</Link></li>
                     <li><i className="bx bx-chevron-right"></i> <Link to="/zapatillas">Zapatillas</Link></li>
                     <li><i className="bx bx-chevron-right"></i> <Link to="/contacto">Contacto</Link></li>
-                    <li><i className="bx bx-chevron-right"></i> <Link to="/quienes-somos">Quienes Somos</Link></li>
+                    <li><i className="bx bx-chevron-right"></i> <Link to="/QuienesSomos">Quienes Somos</Link></li>
                 </ul>
             </div>
 
